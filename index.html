@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gharda Agricultural Research Centre</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+<div class="logo-container">
+<img src="logo.png">
+</div>
+
+<nav>
+<ul id="menu">
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#research">Research</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="menu-btn" onclick="toggleMenu()"></div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+
+<div class="hero-box">
+<h1>Gharda Agricultural Research Centre</h1>
+<p>Innovation in Sustainable Farming & Technology</p>
+
+<button onclick="document.getElementById('research').scrollIntoView({behavior:'smooth'})">
+Explore Research
+</button>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+
+<h2>About Our Centre</h2>
+
+<p>
+We focus on sustainable agriculture, crop innovation, soil research,
+and smart farming technologies to support farmers.
+</p>
+
+<div class="about-contact">
+<p>📍 <a href="https://www.google.com/maps?q=Gharda+Agricultural+Research+Centre" target="_blank">Location</a></p>
+<p>📧 <a href="mailto:info@garc.org">info@garc.org</a></p>
+<p>📞 <a href="tel:+919876543210">+91 98765 43210</a></p>
+<p>🌐 <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">LinkedIn</a></p>
+</div>
+
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="research">
+
+<h2>Research Areas</h2>
+
+<div class="cards">
+
+<a href="goat.html" class="card">
+<img src="goat.jpg">
+<h3>Goat</h3>
+</a>
+
+<a href="cow.html" class="card">
+<img src="cow.jpg">
+<h3>Cow</h3>
+</a>
+
+<a href="poultry.html" class="card">
+<img src="poultry.jpg">
+<h3>Poultry</h3>
+</a>
+
+<a href="mushroom.html" class="card">
+<img src="mushroom.jpg">
+<h3>Mushroom</h3>
+</a>
+
+<a href="waterpond.html" class="card">
+<img src="pond.jpg">
+<h3>Water Pond</h3>
+</a>
+
+<a href="nursery.html" class="card">
+<img src="nursery.jpg">
+<h3>Nursery</h3>
+</a>
+
+<a href="hen.html" class="card">
+<img src="hen.jpg">
+<h3>Hen</h3>
+</a>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<div class="contact-container">
+
+<form id="contactForm">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Email" required>
+<textarea placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+<div class="map">
+<iframe src="https://www.google.com/maps?q=Gharda+Agricultural+Research+Centre&output=embed"></iframe>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Gharda Agricultural Research Centre</p>
+<P>A/P: Lavel, Tel. Khed, Dist. Ratnagiri - 415708</P>
+<p></p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
