@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mushroom Farming</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{margin:0;font-family:'Poppins';background:#f1f3f4;}
+.hero{height:60vh;background:url('mushroom.jpg') center/cover no-repeat;display:flex;align-items:center;justify-content:center;position:relative;}
+.hero::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,0.6);}
+.hero h1{position:relative;color:white;font-size:42px;}
+.container{max-width:1100px;margin:auto;padding:40px 20px;}
+.card{background:white;border-radius:12px;padding:25px;margin-bottom:25px;box-shadow:0 4px 15px rgba(0,0,0,0.08);}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;}
+.small-card{background:#fff;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.06);}
+.back-btn{display:inline-block;margin-top:20px;padding:12px 25px;background:#2e7d32;color:white;text-decoration:none;border-radius:6px;}
+</style>
+</head>
+
+<body>
+
+<section class="hero"><h1>🍄 Mushroom Farming</h1></section>
+
+<div class="container">
+
+<div class="card">
+<h2>Overview</h2>
+<p>Mushroom farming is a profitable agribusiness that requires less land and provides high returns.</p>
+</div>
+
+<div class="card">
+<h2>Types</h2>
+<div class="grid">
+<div class="small-card"><h3>Button</h3><p>Most popular edible mushroom.</p></div>
+<div class="small-card"><h3>Oyster</h3><p>Easy to grow and fast production.</p></div>
+<div class="small-card"><h3>Milky</h3><p>Suitable for warm climates.</p></div>
+</div>
+</div>
+
+<div class="card">
+<h2>Benefits</h2>
+<ul>
+<li>High profit</li>
+<li>Low space required</li>
+<li>Quick growth cycle</li>
+</ul>
+</div>
+
+<a href="index.html" class="back-btn">⬅ Back</a>
+
+</div>
+
+</body>
+</html>

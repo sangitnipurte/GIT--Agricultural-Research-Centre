@@ -42,22 +42,31 @@ nav a:hover {
 }
 .hero {
     height: 100vh;
-    background: url('home.png') no-repeat center center/cover;
+    background: url('home.png') no-repeat center center;
+    background-size: cover;
+
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
-
 /* DARK OVERLAY (important) */
 .hero::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.4); /* makes image visible */
+    inset: 0;
+
+    /* SMOOTH FULL SHADOW */
+    background: rgba(0, 0, 0, 0.35);
+
+    /* Optional gradient (better look) */
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.4)
+    );
 }
 
 /* CONTAINER */
